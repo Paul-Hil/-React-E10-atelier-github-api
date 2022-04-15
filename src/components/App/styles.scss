@@ -1,0 +1,19 @@
+.app {
+  width: 80vw;
+  margin: 1em auto;
+  text-align: center;
+
+  .repos-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  div > header > img  {
+    width: 50%;
+  }
+}
+
+body {
+  background-color: rgb(212, 212, 212);
+}

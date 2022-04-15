@@ -1,0 +1,30 @@
+.repos-results {
+  width: 31%;
+  background-color: #fff;
+  border: 3px solid rgba(148, 145, 145, 0.637);
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 1rem;
+
+  .repos-name {
+    padding: 0.5rem;
+    padding-bottom: 0;
+    font-weight: 900;
+  }
+
+  .repos-owner {
+    padding: 0.5rem;
+    padding-bottom: 0;
+  }
+
+  .repos-thumbnail {
+    width: 100%;
+    max-height: 220px;
+  }
+
+  .repos-excerpt {
+    padding: 0.5rem;
+    max-height: 70px;
+    overflow-y: hidden;
+  }
+}
